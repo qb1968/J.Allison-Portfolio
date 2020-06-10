@@ -10,14 +10,14 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hello, my name is',
-  name: 'Jonathan Allison',
-  subtitle: 'I am a Full Stack Developer',
+  name: 'Jonathan Allison.',
+  subtitle: 'I am a Full Stack Developer based in North Carolina',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'bat8.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -33,7 +33,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: 'https://serene-tereshkova-2232d4.netlify.app',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/qb1968/Rick-Morty', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -42,7 +42,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: 'https://frontend-f31fx9705.now.sh/',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/Build-Week-Wunderlist-4/Backend/tree/jonathan-allison', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -51,7 +51,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: 'https://csbw1.now.sh',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/qb1968/GOL/tree/master', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -60,7 +60,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: 'https://datadriventransit.org',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/Lambda-School-Labs/sfmta-data-analysis-fe', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -69,7 +69,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: 'https://movie-db-five.now.sh/',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/qb1968/MovieDB', // if no repo, the button will not show up
   },
 ];
 
@@ -77,7 +77,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'mark.allison75@gmail.com',
 };
 
 // FOOTER DATA
@@ -86,12 +86,12 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jonathan-allison-1a4136196/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/qb1968',
     },
   ],
 };

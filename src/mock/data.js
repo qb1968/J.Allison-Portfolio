@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Rick and Morty',
     info: '',
     info2: '',
-    url: 'https://serene-tereshkova-2232d4.netlify.app',
+    url: 'https://rick-morty.markallison751.now.sh/',
     repo: 'https://github.com/qb1968/Rick-Morty', // if no repo, the button will not show up
   },
   {

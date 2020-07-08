@@ -39,14 +39,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Where do I begin? I am a 52 year father of four wonderful daughters and five beautiful grandchildren. Yes very proud and yes have my hands full. Music has always been my life and always thought I would have a career in it. To this day I still run my own DJ business. But, after one dead end job after another I found something else I was just as passionate about and that was computers. '}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I began to teach myself how they work and what makes them tick by taking them apart and building them. Also started to clean them of viruses and wiping hard drives, the standard stuff. Then I wanted to learn about websites and that lead me to where I am today.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    "With the support of the world's greatest wife and family I decided to embark on a remarkable journey called Lambda. I began that journey in October of 2019 as a Full Stack Web Developer and have never been more proud of myself. Once again proving you are never too old to chase your dreams."}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

@@ -39,7 +39,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Where do I begin? I am a 52 year father of four wonderful daughters and five beautiful grandchildren. Yes very proud and yes have my hands full. Music has always been my life and always thought I would have a career in it. To this day I still run my own DJ business. But, after one dead end job after another I found something else I was just as passionate about and that was computers. '}
+                    'Where do I begin? I am a 52 year old father of four wonderful daughters and five beautiful grandchildren. Yes very proud and yes have my hands full. Music has always been my life and always thought I would have a career in it. To this day I still run my own DJ business. But, after one dead-end job after another, I found something else I was just as passionate about and that was computers. '}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||

@@ -34,7 +34,7 @@ export const projectsData = [
     img: 'RM.png',
     title: 'Rick and Morty',
     info:
-      'One of my favorite projects. Huge Rick and Morty fan so I decided to create it with React| BootStrap|Styled-Components|Material- UI. Also learned how to add animations and audio.',
+      'One of my favorite projects. Huge Rick and Morty fan so I decided to create it with React | BootStrap | Styled-Components | Material- UI. Also learned how to add animations and audio.',
     info2: '',
     url: 'https://rick-morty.markallison751.now.sh/',
     repo: 'https://github.com/qb1968/Rick-Morty', // if no repo, the button will not show up
@@ -63,7 +63,7 @@ export const projectsData = [
     img: 'DDD.png',
     title: 'SFTMA Data Analysis',
     info:
-      ' Collaborated on this project with a team of 4 web developers, 3 data scientists and 1 UX designer to build the app  in 8 weeks.  . We worked with Jarie Bolander on this project, who was the stakeholder. Site was created to moniter bunches and gaps for the SFMTA',
+      ' Collaborated on this project with a team of 4 web developers, 3 data scientists and 1 UX designer to build the app  in 8 weeks. We worked with Jarie Bolander on this project, who was the stakeholder. Site was created to moniter bunches and gaps for the SFMTA',
     info2:
       '  "I really enjoyed working with Jonathan on the Labs 22 project. He had some keen insights that made the project come together in a delightful way. I was impressed that he could take my 3 paragraph idea and help create www.datadriventransit.org. He would be an asset to any team looking for someone that can take an idea, work with a multi-disciplinary team across the world, and bring it to life. " ||      Jarie Bolander Entrepreneur|Author|Podcaster',
     url: 'https://datadriventransit.org',

@@ -43,11 +43,11 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'I began to teach myself how they work and what makes them tick by taking them apart and building them. Also started to clean them of viruses and wiping hard drives, the standard stuff. Then I wanted to learn about websites and that lead me to where I am today.'}
+                    'I began to teach myself how they work and what makes them tick by taking them apart and building them. Also started to clean them of viruses and wiping hard drives, the standard stuff. Then I wanted to learn about websites and that led me to where I am today.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
-                    "With the support of the world's greatest wife and family I decided to embark on a remarkable journey and further my education at Lambda School. I began that journey in October of 2019 as a Full Stack Web Developer specializing in HTML|CSS|LESS/SASS|Javascript|React|Redux|Express|NodeJS|Jest|SQLite3|Python| "}
+                    "With the support of the world's greatest wife and family I decided to embark on a remarkable journey and further my education at Lambda School. I began that journey in October of 2019 as a Full Stack Web Developer specializing in HTML | CSS | LESS/SASS | Javascript | React | Redux | Express | NodeJS | Jest | SQLite3 | Python "}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

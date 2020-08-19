@@ -31,7 +31,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: 1,
-    img: 'RM.png',
+    img: 'RandM.png',
     title: 'Rick and Morty',
     info:
       'One of my favorite projects. Huge Rick and Morty fan so I decided to create it with React | BootStrap | Styled-Components | Material- UI. Also learned how to add animations and audio.',

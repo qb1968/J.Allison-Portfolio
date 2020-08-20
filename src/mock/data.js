@@ -67,7 +67,7 @@ export const projectsData = [
     info2:
       '  "I really enjoyed working with Jonathan on the Labs 22 project. He had some keen insights that made the project come together in a delightful way. I was impressed that he could take my 3 paragraph idea and help create www.datadriventransit.org. He would be an asset to any team looking for someone that can take an idea, work with a multi-disciplinary team across the world, and bring it to life. " ||      Jarie Bolander Entrepreneur|Author|Podcaster',
     url: 'https://labs2020.vercel.app/',
-    repo: 'https://github.com/Lambda-School-Labs/sfmta-data-analysis-fe', // if no repo, the button will not show up
+    repo: 'https://github.com/qb1968/Labs2020', // if no repo, the button will not show up
   },
   {
     id: 5,
@@ -78,6 +78,16 @@ export const projectsData = [
     info2: '',
     url: 'https://movie-db-five.now.sh/',
     repo: 'https://github.com/qb1968/MovieDB', // if no repo, the button will not show up
+  },
+  {
+    id: 6,
+    img: 'SHF.png',
+    title: 'SuperHero-Finder',
+    info:
+      'Just a big nerd who still loves comics. Since I love superheros thought it would be a fun project! ',
+    info2: '',
+    url: 'https://superhero-finder.vercel.app/',
+    repo: 'https://github.com/qb1968/Superhero-Finder', // if no repo, the button will not show up
   },
 ];
 

@@ -1,7 +1,20 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
-import Fade from 'react-reveal/Fade';
 import PortfolioContext from '../../context/context';
+import styled,{keyframes} from 'styled-components'
+import zoomInUp from 'react-animations/lib/zoom-in-up';
+import zoomInDown from 'react-animations/lib/zoom-in-down';
+
+const bounceAnimation = keyframes`${zoomInUp}`;
+const slideAnimation = keyframes `${zoomInDown}`
+
+const SlideL =styled.h1`
+animation: 8s ${slideAnimation}
+`
+
+const ATag = styled.a`
+  animation: 8s ${bounceAnimation};
+`;
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -23,21 +36,21 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <h1 className="hero-title">
+        
+          <SlideL className="hero-title">
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Your Name'}</span>
             <br />
             {subtitle || "I'm the Unknown Developer."}
-          </h1>
-        </Fade>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+          </SlideL>
+        
+        
           <p className="hero-cta">
-            <a className="cta-btn cta-btn--hero" href="#about">
+            <ATag className="cta-btn cta-btn--hero" href="#about">
               {cta || 'Know more'}
-            </a>
+            </ATag>
           </p>
-        </Fade>
+      
       </Container>
     </section>
   );

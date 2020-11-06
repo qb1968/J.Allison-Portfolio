@@ -51,24 +51,14 @@ export const projectsData = [
   },
   {
     id: 3,
-    img: 'Game.png',
-    title: 'Game of Life',
-    info: 'The Game of Life created with React',
+    img: 'ecom.png',
+    title: 'Ecom',
+    info: 'Fully functional ecommerce site. Built with MERN Stack.',
     info2: '',
-    url: 'https://csbw1.now.sh',
-    repo: 'https://github.com/qb1968/GOL/tree/master', // if no repo, the button will not show up
+    url: 'https://morning-gorge-25166.herokuapp.com/',
+    repo: 'https://github.com/qb1968/ecom', // if no repo, the button will not show up
   },
-  {
-    id: 4,
-    img: 'SFMTA.png',
-    title: 'SFMTA Data Analysis',
-    info:
-      ' Collaborated on this project with a team of 4 web developers, 3 data scientists and 1 UX designer to build the app  in 8 weeks. We worked with Jarie Bolander on this project, who was the stakeholder. Site was created to moniter bunches and gaps for the SFMTA',
-    info2:
-      '  "I really enjoyed working with Jonathan on the Labs 22 project. He had some keen insights that made the project come together in a delightful way. I was impressed that he could take my 3 paragraph idea and help create www.datadriventransit.org. He would be an asset to any team looking for someone that can take an idea, work with a multi-disciplinary team across the world, and bring it to life. " ||      Jarie Bolander Entrepreneur|Author|Podcaster',
-    url: 'https://labs2020.vercel.app/',
-    repo: 'https://github.com/qb1968/Labs2020', // if no repo, the button will not show up
-  },
+
   {
     id: 5,
     img: 'Movies.png',
@@ -84,10 +74,21 @@ export const projectsData = [
     img: 'SHF.png',
     title: 'SuperHero-Finder',
     info:
-      'Just a big nerd who still loves comics. Since I love superheros thought it would be a fun project! ',
+      'Just a big nerd who still loves comics. Since I love superheros thought it would be a fun project. Go ahead you know you want to! ',
     info2: '',
     url: 'https://superhero-finder.vercel.app/',
     repo: 'https://github.com/qb1968/Superhero-Finder', // if no repo, the button will not show up
+  },
+  {
+    id: 4,
+    img: 'SFMTA.png',
+    title: 'SFMTA Data Analysis',
+    info:
+      ' Collaborated on this project with a team of 4 web developers, 3 data scientists and 1 UX designer to build the app  in 8 weeks. We worked with Jarie Bolander on this project, who was the stakeholder. Site was created to moniter bunches and gaps for the SFMTA',
+    info2:
+      '  "I really enjoyed working with Jonathan on the Labs 22 project. He had some keen insights that made the project come together in a delightful way. I was impressed that he could take my 3 paragraph idea and help create www.datadriventransit.org. He would be an asset to any team looking for someone that can take an idea, work with a multi-disciplinary team across the world, and bring it to life. " ||      Jarie Bolander Entrepreneur|Author|Podcaster',
+    url: 'https://labs2020.vercel.app/',
+    repo: 'https://github.com/qb1968/Labs2020', // if no repo, the button will not show up
   },
 ];
 
